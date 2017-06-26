@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFServicios", "WCFServicios\WCFServicios.csproj", "{F621B896-11ED-409F-B356-20D072813B97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APP_MVC_TEST_WCF", "APP_MVC_TEST_WCF\APP_MVC_TEST_WCF.csproj", "{7906AAF1-E034-4ECB-82AC-6FDFAC7A7B6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F621B896-11ED-409F-B356-20D072813B97} = {F621B896-11ED-409F-B356-20D072813B97}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F621B896-11ED-409F-B356-20D072813B97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F621B896-11ED-409F-B356-20D072813B97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F621B896-11ED-409F-B356-20D072813B97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F621B896-11ED-409F-B356-20D072813B97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7906AAF1-E034-4ECB-82AC-6FDFAC7A7B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7906AAF1-E034-4ECB-82AC-6FDFAC7A7B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7906AAF1-E034-4ECB-82AC-6FDFAC7A7B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7906AAF1-E034-4ECB-82AC-6FDFAC7A7B6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
